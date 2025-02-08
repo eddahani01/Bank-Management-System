@@ -485,7 +485,7 @@ void GoBackToMainMenu()
 
 short ReadMainMenuOptions()
 {
-    cout << "Choose what do you want to do? [1 to 6]?";
+    cout << "Choose what do you want to do? [1 to 6]? ";
     short Choice = 0;
     cin >> Choice;
 
