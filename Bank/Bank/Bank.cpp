@@ -473,7 +473,7 @@ void ShowWithdrawScreen()
 {
 	system("cls");
 	cout << string(40, '-') << endl;
-	cout << "\tDeposit Screen \n";
+	cout << "\tWithdraw Screen \n";
 	cout << string(40, '-') << endl << endl;
 
 	vector <stClient> vClients = LoadClientDataFromFile(ClientstFileName);
